@@ -22,8 +22,7 @@ int clientList[MAXCL];
 
 int clientsocks[MAXCL];
 int sendsocks[MAXCL];
-int n, l, m, nc;
-double a;
+int n, l, nc, amt, T;
 
 int topo[MAXCL][MAXCL];
 
@@ -86,8 +85,8 @@ void mserver(){
                     send(tempSocket, &n, sizeof(int), 0);
                     send(tempSocket, &n, sizeof(int), 0);
                     send(tempSocket, &l, sizeof(int), 0);
-                    send(tempSocket, &a, sizeof(double), 0);
-                    send(tempSocket, &m, sizeof(int), 0);
+                    send(tempSocket, &amt, sizeof(int), 0);
+                    send(tempSocket, &T, sizeof(int), 0);
                     for(int j=0;j<maxClients;j++){
                         if(clientList[j]>0 && j!= i){
                             send(clientList[j], &nc, sizeof(struct nclient), 0);
@@ -194,7 +193,6 @@ void logPrint(){
 
                         }
                         nc--;
-                        cout << "Average size of each message in the entire system is " << sum/n << " bytes." << endl << "Size of int is " << sizeof(int) << " bytes." << endl;
                     }
                 }
             }
@@ -203,7 +201,7 @@ void logPrint(){
 }
 
 int main(){
-    scanf("%d%d%lf%d", &n, &l, &a, &m);
+    scanf("%d%d%d%d", &n, &amt, &T,  &l);
     nc = n;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++)scanf("%d", &topo[i][j]);
