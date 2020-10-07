@@ -22,10 +22,10 @@ int clientList[MAXCL];
 
 int clientsocks[MAXCL];
 int sendsocks[MAXCL];
-int leaders[MAXCL];
-int no_of_leaders;
-int n, k, initial, a, b, nc;
-int flag = 1;
+int n, l, m, nc;
+double a;
+
+int topo[MAXCL][MAXCL];
 
 struct socmsg{
     int id;
@@ -53,11 +53,11 @@ void mserver(){
         perror("bind failed");
         exit(EXIT_FAILURE);
     }
-//    cout << "Listener on port :" << PORT << endl;
+    cout << "Listener on port :" << PORT << endl;
     listen(serverSocket, 20);
     addrl = sizeof(ipaddr);
-//    cout << "Waiting for connections ..." << endl;
-    while(flag){
+    cout << "Waiting for connections ..." << endl;
+    while(1){
         FD_ZERO(&readfds);
         FD_SET(serverSocket, &readfds);
         maxsd = serverSocket;
@@ -70,32 +70,30 @@ void mserver(){
         if(FD_ISSET(serverSocket, &readfds))
         {
             tempSocket = accept(serverSocket, (struct sockaddr *)&ipaddr, (socklen_t*)&addrl);
-//            cout << "New connection, socket fd is :"<< tempSocket <<", ip is :" << inet_ntoa(ipaddr.sin_addr) <<", port is :" << ntohs(ipaddr.sin_port) << endl;
+            cout << "New connection, socket fd is :"<< tempSocket <<", ip is :" << inet_ntoa(ipaddr.sin_addr) <<", port is :" << ntohs(ipaddr.sin_port) << endl;
             for(i=0;i<maxClients;i++){
                 if(clientList[i] == 0){
                     struct nclient nc;
                     struct socmsg sm;
                     nc.pid = i;
                     clientList[i] = tempSocket;
-//                    cout << "New process added with pid:" << i << endl;
+                    cout << "New process added with pid:" << i << endl;
                     send(tempSocket, &i, sizeof(int), 0);
                     read(tempSocket, &clientsocks[i], sizeof(int));
                     nc.csock = clientsocks[i];
                     send(tempSocket, &clientsocks, sizeof(int)*MAXCL, 0);
+                    send(tempSocket, &topo, sizeof(int)*MAXCL*MAXCL, 0);
                     send(tempSocket, &n, sizeof(int), 0);
                     send(tempSocket, &n, sizeof(int), 0);
-                    send(tempSocket, &initial, sizeof(int), 0);
-                    send(tempSocket, &k, sizeof(int), 0);
-                    send(tempSocket, &a, sizeof(int), 0);
-                    send(tempSocket, &b, sizeof(int), 0);
-//                    send(tempSocket, &no_of_leaders, sizeof(no_of_leaders), 0);
-                    send(tempSocket, &leaders, sizeof(leaders), 0);
+                    send(tempSocket, &l, sizeof(int), 0);
+                    send(tempSocket, &a, sizeof(double), 0);
+                    send(tempSocket, &m, sizeof(int), 0);
                     for(int j=0;j<maxClients;j++){
                         if(clientList[j]>0 && j!= i){
                             send(clientList[j], &nc, sizeof(struct nclient), 0);
                         }
                     }
-//                    cout << "All proceess intimidated of new Process " << i << "." << endl;
+                    cout << "All proceess intimidated of new Process " << i << "." << endl;
                     break;
                 }
             }
@@ -136,8 +134,7 @@ void logPrint(){
     int opt = 1;
     int serverSocket, addrl, tempSocket, clientList[MAXCL], maxClients = MAXCL, activity, i, valread, socdescp;
     int maxsd;
-    int msgd[MAXCL];
-    double resp_time[MAXCL];
+    double msgd[MAXCL];
     struct sockaddr_in ipaddr;
     char buffer[65536];
     fd_set readfds;
@@ -156,7 +153,7 @@ void logPrint(){
     }
     listen(serverSocket, 20);
     addrl = sizeof(ipaddr);
-    while(flag){
+    while(1){
         FD_ZERO(&readfds);
         FD_SET(serverSocket, &readfds);
         maxsd = serverSocket;
@@ -166,51 +163,54 @@ void logPrint(){
             if(socdescp > maxsd)maxsd = socdescp;
         }
         activity = select( maxsd + 1 , &readfds , NULL , NULL , NULL);
-        if(FD_ISSET(serverSocket, &readfds)){
+        if(FD_ISSET(serverSocket, &readfds))
+        {
             tempSocket = accept(serverSocket, (struct sockaddr *)&ipaddr, (socklen_t*)&addrl);
             sprintf(msg, "Connection Established!\n");
             send(tempSocket, msg, strlen(msg), 0);
             read(tempSocket, &msgd[--nc], sizeof(msgd[0]));
-            read(tempSocket, &resp_time[nc], sizeof(resp_time[0]));
-            valread = read(tempSocket, buffer, 65536);
-            buffer[valread] = '\0';
-            cout << buffer << endl;
-            if(nc<=0){
-                double sum = 0;
-                for(int x=0;x<n;x++){
-                    sum += msgd[x];
-
+            for(i=0;i<maxClients;i++){
+                if(clientList[i] == 0){
+                    clientList[i] = tempSocket;
+                    break;
                 }
-                cout << "Average Message Complexity in System is " << sum/n << endl;
-                sum = 0;
-                for(int x=0;x<n;x++){
-                    sum += resp_time[x];
-
+            }
+        }
+        for(i=0;i<maxClients;i++){
+            socdescp = clientList[i];
+            if(FD_ISSET(socdescp, &readfds)){
+                if((valread = read(socdescp, buffer, 65536)) == 0){
+                    getpeername(socdescp, (struct sockaddr*)&ipaddr, (socklen_t*)&addrl);
+                    close(socdescp);
+                    clientList[i] = 0;
                 }
-                cout << "Average Response Time in System is " << sum/n << "secs." << endl;
-                flag = 0;
+                else{
+                    buffer[valread] = '\0';
+                    cout << buffer << endl;
+                    if(nc<=0){
+                        double sum = 0;
+                        for(int x=0;x<n;x++){
+                            sum += msgd[x];
+
+                        }
+                        nc--;
+                        cout << "Average size of each message in the entire system is " << sum/n << " bytes." << endl << "Size of int is " << sizeof(int) << " bytes." << endl;
+                    }
+                }
             }
         }
     }
 }
 
 int main(){
-    scanf("%d%d%d%d%d", &n, &k, &initial,  &a, &b);
-    scanf("%d", &no_of_leaders);
-
-    for(int i = 0; i < MAXCL; i++)
-        leaders[i] = 0;
-
-    for(int i = 0; i < n; i++){
-        int temp;
-        scanf("%d", &temp);
-        leaders[temp] = 1;
-    }
-
+    scanf("%d%d%lf%d", &n, &l, &a, &m);
     nc = n;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++)scanf("%d", &topo[i][j]);
+    }
     std::thread t1(mserver);
     std::thread t2(logPrint);
-    t1.detach();
+    t1.join();
     t2.join();
     return 0;
 }
