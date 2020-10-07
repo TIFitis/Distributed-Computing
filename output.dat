@@ -1,0 +1,1167 @@
+
+p0 is doing local computation at 07:32:19
+p0 requests to enter CS at 07:32:22 for 1 time
+p0 recieves token from p1 at 07:32:36
+p0 recieves p1's request to enter CS at 07:32:36
+p0 enters CS at 07:32:36
+p0 leaves CS at 07:32:37
+p0 sends token to p1 at 07:32:37
+p0 is doing local computation at 07:32:37
+p0 requests to enter CS at 07:32:39 for 2 time
+p0 recieves token from p1 at 07:33:49
+p0 recieves p1's request to enter CS at 07:33:49
+p0 enters CS at 07:33:49
+p0 leaves CS at 07:33:51
+p0 sends token to p1 at 07:33:51
+p0 is doing local computation at 07:33:51
+p0 requests to enter CS at 07:33:54 for 3 time
+p0 recieves token from p1 at 07:34:54
+p0 enters CS at 07:34:54
+p0 recieves p1's request to enter CS at 07:34:54
+p0 leaves CS at 07:34:59
+p0 is doing local computation at 07:34:59
+p0 sends token to p1 at 07:34:59
+p0 requests to enter CS at 07:35:01 for 4 time
+p0 recieves token from p1 at 07:35:56
+p0 recieves p1's request to enter CS at 07:35:56
+p0 enters CS at 07:35:56
+p0 leaves CS at 07:36:01
+p0 sends token to p1 at 07:36:01
+Messages exchanged by p0 is 32.
+Average Reponse time of p0 is 8.36 secs.
+
+
+p1 is doing local computation at 07:32:19
+p1 requests to enter CS at 07:32:20 for 1 time
+p1 recieves p0's request to enter CS at 07:32:22
+p1 recieves token from p2 at 07:32:33
+p1 recieves p2's request to enter CS at 07:32:33
+p1 enters CS at 07:32:33
+p1 leaves CS at 07:32:36
+p1 sends token to p0 at 07:32:36
+p1 forwarded p2's request to enter CS at 07:32:36
+p1 is doing local computation at 07:32:36
+p1 recieves token from p0 at 07:32:37
+p1 sends token to p2 at 07:32:37
+p1 requests to enter CS at 07:32:39 for 2 time
+p1 recieves p0's request to enter CS at 07:32:39
+p1 recieves token from p2 at 07:33:48
+p1 enters CS at 07:33:48
+p1 recieves p2's request to enter CS at 07:33:48
+p1 leaves CS at 07:33:49
+p1 is doing local computation at 07:33:49
+p1 sends token to p0 at 07:33:49
+p1 forwarded p2's request to enter CS at 07:33:49
+p1 recieves token from p0 at 07:33:51
+p1 sends token to p2 at 07:33:51
+p1 requests to enter CS at 07:33:52 for 3 time
+p1 recieves p0's request to enter CS at 07:33:54
+p1 recieves token from p2 at 07:34:53
+p1 recieves p2's request to enter CS at 07:34:53
+p1 enters CS at 07:34:53
+p1 leaves CS at 07:34:54
+p1 sends token to p0 at 07:34:54
+p1 forwarded p2's request to enter CS at 07:34:54
+p1 is doing local computation at 07:34:54
+p1 requests to enter CS at 07:34:57 for 4 time
+p1 recieves token from p0 at 07:34:59
+p1 sends token to p2 at 07:34:59
+p1 recieves p0's request to enter CS at 07:35:01
+p1 recieves token from p2 at 07:35:55
+p1 recieves p2's request to enter CS at 07:35:55
+p1 enters CS at 07:35:55
+p1 leaves CS at 07:35:56
+p1 sends token to p0 at 07:35:56
+p1 forwarded p2's request to enter CS at 07:35:56
+p1 recieves token from p0 at 07:36:01
+p1 sends token to p2 at 07:36:01
+Messages exchanged by p1 is 40.
+Average Reponse time of p1 is 8.32 secs.
+
+
+p2 is doing local computation at 07:32:19
+p2 requests to enter CS at 07:32:20 for 1 time
+p2 recieves p1's request to enter CS at 07:32:20
+p2 recieves token from p3 at 07:32:28
+p2 recieves p3's request to enter CS at 07:32:28
+p2 enters CS at 07:32:28
+p2 leaves CS at 07:32:33
+p2 sends token to p1 at 07:32:33
+p2 forwarded p3's request to enter CS at 07:32:33
+p2 is doing local computation at 07:32:33
+p2 requests to enter CS at 07:32:34 for 2 time
+p2 recieves token from p1 at 07:32:37
+p2 sends token to p3 at 07:32:37
+p2 recieves p1's request to enter CS at 07:32:39
+p2 recieves token from p3 at 07:33:44
+p2 recieves p3's request to enter CS at 07:33:44
+p2 enters CS at 07:33:44
+p2 leaves CS at 07:33:48
+p2 sends token to p1 at 07:33:48
+p2 is doing local computation at 07:33:48
+p2 forwarded p3's request to enter CS at 07:33:48
+p2 requests to enter CS at 07:33:51 for 3 time
+p2 recieves token from p1 at 07:33:51
+p2 sends token to p3 at 07:33:51
+p2 recieves p1's request to enter CS at 07:33:52
+p2 recieves token from p3 at 07:34:52
+p2 recieves p3's request to enter CS at 07:34:52
+p2 enters CS at 07:34:52
+p2 leaves CS at 07:34:53
+p2 sends token to p1 at 07:34:53
+p2 forwarded p3's request to enter CS at 07:34:53
+p2 is doing local computation at 07:34:53
+p2 requests to enter CS at 07:34:54 for 4 time
+p2 recieves token from p1 at 07:34:59
+p2 recieves p1's request to enter CS at 07:34:59
+p2 sends token to p3 at 07:34:59
+p2 recieves token from p3 at 07:35:53
+p2 enters CS at 07:35:53
+p2 recieves p3's request to enter CS at 07:35:53
+p2 leaves CS at 07:35:55
+p2 sends token to p1 at 07:35:55
+p2 forwarded p3's request to enter CS at 07:35:55
+p2 recieves token from p1 at 07:36:01
+p2 sends token to p3 at 07:36:01
+Messages exchanged by p2 is 40.
+Average Reponse time of p2 is 8.16 secs.
+
+
+p3 is doing local computation at 07:32:19
+p3 recieves p2's request to enter CS at 07:32:20
+p3 forwarded p2's request to enter CS at 07:32:20
+p3 requests to enter CS at 07:32:21 for 1 time
+p3 recieves token from p4 at 07:32:28
+p3 recieves p4's request to enter CS at 07:32:28
+p3 sends token to p2 at 07:32:28
+p3 recieves token from p2 at 07:32:37
+p3 recieves p2's request to enter CS at 07:32:37
+p3 enters CS at 07:32:37
+p3 leaves CS at 07:32:40
+p3 is doing local computation at 07:32:40
+p3 sends token to p4 at 07:32:40
+p3 forwarded p2's request to enter CS at 07:32:40
+p3 requests to enter CS at 07:32:43 for 2 time
+p3 recieves token from p4 at 07:33:44
+p3 recieves p4's request to enter CS at 07:33:44
+p3 sends token to p2 at 07:33:44
+p3 recieves token from p2 at 07:33:51
+p3 recieves p2's request to enter CS at 07:33:51
+p3 enters CS at 07:33:51
+p3 leaves CS at 07:33:56
+p3 is doing local computation at 07:33:56
+p3 sends token to p4 at 07:33:56
+p3 forwarded p2's request to enter CS at 07:33:56
+p3 requests to enter CS at 07:33:58 for 3 time
+p3 recieves token from p4 at 07:34:52
+p3 recieves p4's request to enter CS at 07:34:52
+p3 sends token to p2 at 07:34:52
+p3 recieves token from p2 at 07:34:59
+p3 enters CS at 07:34:59
+p3 recieves p2's request to enter CS at 07:34:59
+p3 leaves CS at 07:35:03
+p3 sends token to p4 at 07:35:03
+p3 forwarded p2's request to enter CS at 07:35:03
+p3 is doing local computation at 07:35:03
+p3 requests to enter CS at 07:35:04 for 4 time
+p3 recieves token from p4 at 07:35:53
+p3 recieves p4's request to enter CS at 07:35:53
+p3 sends token to p2 at 07:35:53
+p3 recieves token from p2 at 07:36:01
+p3 enters CS at 07:36:01
+p3 leaves CS at 07:36:04
+p3 sends token to p4 at 07:36:04
+Messages exchanged by p3 is 40.
+Average Reponse time of p3 is 8.36 secs.
+
+
+p4 is doing local computation at 07:32:19
+p4 recieves p3's request to enter CS at 07:32:20
+p4 forwarded p3's request to enter CS at 07:32:20
+p4 requests to enter CS at 07:32:21 for 1 time
+p4 recieves token from p5 at 07:32:28
+p4 recieves p5's request to enter CS at 07:32:28
+p4 sends token to p3 at 07:32:28
+p4 recieves token from p3 at 07:32:40
+p4 recieves p3's request to enter CS at 07:32:40
+p4 enters CS at 07:32:40
+p4 leaves CS at 07:32:43
+p4 sends token to p5 at 07:32:43
+p4 forwarded p3's request to enter CS at 07:32:43
+p4 is doing local computation at 07:32:43
+p4 requests to enter CS at 07:32:44 for 2 time
+p4 recieves token from p5 at 07:33:44
+p4 recieves p5's request to enter CS at 07:33:44
+p4 sends token to p3 at 07:33:44
+p4 recieves token from p3 at 07:33:56
+p4 enters CS at 07:33:56
+p4 recieves p3's request to enter CS at 07:33:56
+p4 leaves CS at 07:33:57
+p4 is doing local computation at 07:33:57
+p4 sends token to p5 at 07:33:57
+p4 forwarded p3's request to enter CS at 07:33:57
+p4 requests to enter CS at 07:33:58 for 3 time
+p4 recieves token from p5 at 07:34:52
+p4 sends token to p3 at 07:34:52
+p4 recieves p5's request to enter CS at 07:34:52
+p4 recieves token from p3 at 07:35:03
+p4 recieves p3's request to enter CS at 07:35:03
+p4 enters CS at 07:35:03
+p4 leaves CS at 07:35:06
+p4 sends token to p5 at 07:35:06
+p4 forwarded p3's request to enter CS at 07:35:06
+p4 is doing local computation at 07:35:06
+p4 requests to enter CS at 07:35:08 for 4 time
+p4 recieves token from p5 at 07:35:53
+p4 recieves p5's request to enter CS at 07:35:53
+p4 sends token to p3 at 07:35:53
+p4 recieves token from p3 at 07:36:04
+p4 enters CS at 07:36:04
+p4 leaves CS at 07:36:06
+p4 sends token to p5 at 07:36:06
+Messages exchanged by p4 is 40.
+Average Reponse time of p4 is 8.68 secs.
+
+
+p5 is doing local computation at 07:32:19
+p5 recieves p4's request to enter CS at 07:32:20
+p5 forwarded p4's request to enter CS at 07:32:20
+p5 requests to enter CS at 07:32:21 for 1 time
+p5 recieves token from p6 at 07:32:28
+p5 sends token to p4 at 07:32:28
+p5 recieves p6's request to enter CS at 07:32:28
+p5 recieves token from p4 at 07:32:43
+p5 recieves p4's request to enter CS at 07:32:43
+p5 enters CS at 07:32:43
+p5 leaves CS at 07:32:48
+p5 sends token to p6 at 07:32:48
+p5 forwarded p4's request to enter CS at 07:32:48
+p5 is doing local computation at 07:32:48
+p5 requests to enter CS at 07:32:49 for 2 time
+p5 recieves token from p6 at 07:33:44
+p5 sends token to p4 at 07:33:44
+p5 recieves p6's request to enter CS at 07:33:44
+p5 recieves token from p4 at 07:33:57
+p5 enters CS at 07:33:57
+p5 recieves p4's request to enter CS at 07:33:57
+p5 leaves CS at 07:34:02
+p5 sends token to p6 at 07:34:02
+p5 forwarded p4's request to enter CS at 07:34:02
+p5 is doing local computation at 07:34:02
+p5 requests to enter CS at 07:34:04 for 3 time
+p5 recieves token from p6 at 07:34:52
+p5 recieves p6's request to enter CS at 07:34:52
+p5 sends token to p4 at 07:34:52
+p5 recieves token from p4 at 07:35:06
+p5 recieves p4's request to enter CS at 07:35:06
+p5 enters CS at 07:35:06
+p5 leaves CS at 07:35:11
+p5 sends token to p6 at 07:35:11
+p5 forwarded p4's request to enter CS at 07:35:11
+p5 is doing local computation at 07:35:11
+p5 requests to enter CS at 07:35:12 for 4 time
+p5 recieves token from p6 at 07:35:53
+p5 recieves p6's request to enter CS at 07:35:53
+p5 sends token to p4 at 07:35:53
+p5 recieves token from p4 at 07:36:06
+p5 enters CS at 07:36:06
+p5 leaves CS at 07:36:11
+p5 sends token to p6 at 07:36:11
+Messages exchanged by p5 is 40.
+Average Reponse time of p5 is 8.44 secs.
+
+
+p6 is doing local computation at 07:32:19
+p6 recieves p5's request to enter CS at 07:32:20
+p6 forwarded p5's request to enter CS at 07:32:20
+p6 requests to enter CS at 07:32:21 for 1 time
+p6 recieves token from p7 at 07:32:28
+p6 recieves p7's request to enter CS at 07:32:28
+p6 sends token to p5 at 07:32:28
+p6 recieves token from p5 at 07:32:48
+p6 recieves p5's request to enter CS at 07:32:48
+p6 enters CS at 07:32:48
+p6 leaves CS at 07:32:50
+p6 sends token to p7 at 07:32:50
+p6 is doing local computation at 07:32:50
+p6 forwarded p5's request to enter CS at 07:32:50
+p6 requests to enter CS at 07:32:51 for 2 time
+p6 recieves token from p7 at 07:33:44
+p6 sends token to p5 at 07:33:44
+p6 recieves p7's request to enter CS at 07:33:44
+p6 recieves token from p5 at 07:34:02
+p6 recieves p5's request to enter CS at 07:34:02
+p6 enters CS at 07:34:02
+p6 leaves CS at 07:34:04
+p6 sends token to p7 at 07:34:04
+p6 is doing local computation at 07:34:04
+p6 forwarded p5's request to enter CS at 07:34:04
+p6 requests to enter CS at 07:34:06 for 3 time
+p6 recieves token from p7 at 07:34:52
+p6 recieves p7's request to enter CS at 07:34:52
+p6 sends token to p5 at 07:34:52
+p6 recieves token from p5 at 07:35:11
+p6 recieves p5's request to enter CS at 07:35:11
+p6 enters CS at 07:35:11
+p6 leaves CS at 07:35:12
+p6 sends token to p7 at 07:35:12
+p6 forwarded p5's request to enter CS at 07:35:12
+p6 is doing local computation at 07:35:12
+p6 requests to enter CS at 07:35:14 for 4 time
+p6 recieves token from p7 at 07:35:53
+p6 recieves p7's request to enter CS at 07:35:53
+p6 sends token to p5 at 07:35:53
+p6 recieves token from p5 at 07:36:11
+p6 enters CS at 07:36:11
+p6 leaves CS at 07:36:16
+p6 sends token to p7 at 07:36:16
+Messages exchanged by p6 is 40.
+Average Reponse time of p6 is 9.04 secs.
+
+
+p7 is doing local computation at 07:32:19
+p7 requests to enter CS at 07:32:20 for 1 time
+p7 recieves p6's request to enter CS at 07:32:20
+p7 recieves token from p8 at 07:32:26
+p7 recieves p8's request to enter CS at 07:32:26
+p7 enters CS at 07:32:26
+p7 leaves CS at 07:32:28
+p7 sends token to p6 at 07:32:28
+p7 is doing local computation at 07:32:28
+p7 forwarded p8's request to enter CS at 07:32:28
+p7 requests to enter CS at 07:32:31 for 2 time
+p7 recieves token from p6 at 07:32:50
+p7 recieves p6's request to enter CS at 07:32:50
+p7 sends token to p8 at 07:32:50
+p7 recieves token from p8 at 07:33:42
+p7 recieves p8's request to enter CS at 07:33:42
+p7 enters CS at 07:33:42
+p7 leaves CS at 07:33:44
+p7 sends token to p6 at 07:33:44
+p7 forwarded p8's request to enter CS at 07:33:44
+p7 is doing local computation at 07:33:44
+p7 requests to enter CS at 07:33:47 for 3 time
+p7 recieves token from p6 at 07:34:04
+p7 recieves p6's request to enter CS at 07:34:04
+p7 sends token to p8 at 07:34:04
+p7 recieves token from p8 at 07:34:51
+p7 recieves p8's request to enter CS at 07:34:51
+p7 enters CS at 07:34:51
+p7 leaves CS at 07:34:52
+p7 sends token to p6 at 07:34:52
+p7 forwarded p8's request to enter CS at 07:34:52
+p7 is doing local computation at 07:34:52
+p7 requests to enter CS at 07:34:53 for 4 time
+p7 recieves token from p6 at 07:35:12
+p7 sends token to p8 at 07:35:12
+p7 recieves p6's request to enter CS at 07:35:12
+p7 recieves token from p8 at 07:35:51
+p7 recieves p8's request to enter CS at 07:35:51
+p7 enters CS at 07:35:51
+p7 leaves CS at 07:35:53
+p7 sends token to p6 at 07:35:53
+p7 forwarded p8's request to enter CS at 07:35:53
+p7 recieves token from p6 at 07:36:16
+p7 sends token to p8 at 07:36:16
+Messages exchanged by p7 is 40.
+Average Reponse time of p7 is 8.28 secs.
+
+
+p8 is doing local computation at 07:32:19
+p8 recieves p7's request to enter CS at 07:32:20
+p8 forwarded p7's request to enter CS at 07:32:20
+p8 requests to enter CS at 07:32:22 for 1 time
+p8 recieves token from p9 at 07:32:26
+p8 sends token to p7 at 07:32:26
+p8 recieves p9's request to enter CS at 07:32:26
+p8 recieves token from p7 at 07:32:50
+p8 recieves p7's request to enter CS at 07:32:50
+p8 enters CS at 07:32:50
+p8 leaves CS at 07:32:54
+p8 is doing local computation at 07:32:54
+p8 sends token to p9 at 07:32:54
+p8 forwarded p7's request to enter CS at 07:32:54
+p8 requests to enter CS at 07:32:55 for 2 time
+p8 recieves token from p9 at 07:33:42
+p8 sends token to p7 at 07:33:42
+p8 recieves p9's request to enter CS at 07:33:42
+p8 recieves token from p7 at 07:34:04
+p8 recieves p7's request to enter CS at 07:34:04
+p8 enters CS at 07:34:04
+p8 leaves CS at 07:34:09
+p8 sends token to p9 at 07:34:09
+p8 forwarded p7's request to enter CS at 07:34:09
+p8 is doing local computation at 07:34:09
+p8 requests to enter CS at 07:34:11 for 3 time
+p8 recieves token from p9 at 07:34:51
+p8 recieves p9's request to enter CS at 07:34:51
+p8 sends token to p7 at 07:34:51
+p8 recieves token from p7 at 07:35:12
+p8 recieves p7's request to enter CS at 07:35:12
+p8 enters CS at 07:35:12
+p8 leaves CS at 07:35:13
+p8 sends token to p9 at 07:35:13
+p8 forwarded p7's request to enter CS at 07:35:13
+p8 is doing local computation at 07:35:13
+p8 requests to enter CS at 07:35:15 for 4 time
+p8 recieves token from p9 at 07:35:51
+p8 sends token to p7 at 07:35:51
+p8 recieves p9's request to enter CS at 07:35:51
+p8 recieves token from p7 at 07:36:16
+p8 enters CS at 07:36:16
+p8 leaves CS at 07:36:17
+p8 sends token to p9 at 07:36:17
+Messages exchanged by p8 is 40.
+Average Reponse time of p8 is 9.04 secs.
+
+
+p9 is doing local computation at 07:32:19
+p9 recieves p8's request to enter CS at 07:32:20
+p9 forwarded p8's request to enter CS at 07:32:20
+p9 requests to enter CS at 07:32:22 for 1 time
+p9 recieves token from p10 at 07:32:26
+p9 sends token to p8 at 07:32:26
+p9 recieves p10's request to enter CS at 07:32:26
+p9 recieves token from p8 at 07:32:54
+p9 recieves p8's request to enter CS at 07:32:54
+p9 enters CS at 07:32:55
+p9 leaves CS at 07:33:00
+p9 is doing local computation at 07:33:00
+p9 sends token to p10 at 07:33:00
+p9 forwarded p8's request to enter CS at 07:33:00
+p9 requests to enter CS at 07:33:02 for 2 time
+p9 recieves token from p10 at 07:33:42
+p9 sends token to p8 at 07:33:42
+p9 recieves p10's request to enter CS at 07:33:42
+p9 recieves token from p8 at 07:34:09
+p9 recieves p8's request to enter CS at 07:34:09
+p9 enters CS at 07:34:09
+p9 leaves CS at 07:34:11
+p9 sends token to p10 at 07:34:11
+p9 is doing local computation at 07:34:11
+p9 forwarded p8's request to enter CS at 07:34:11
+p9 requests to enter CS at 07:34:12 for 3 time
+p9 recieves token from p10 at 07:34:51
+p9 recieves p10's request to enter CS at 07:34:51
+p9 sends token to p8 at 07:34:51
+p9 recieves token from p8 at 07:35:13
+p9 enters CS at 07:35:13
+p9 recieves p8's request to enter CS at 07:35:13
+p9 leaves CS at 07:35:16
+p9 sends token to p10 at 07:35:16
+p9 forwarded p8's request to enter CS at 07:35:16
+p9 is doing local computation at 07:35:16
+p9 requests to enter CS at 07:35:17 for 4 time
+p9 recieves token from p10 at 07:35:51
+p9 recieves p10's request to enter CS at 07:35:51
+p9 sends token to p8 at 07:35:51
+p9 recieves token from p8 at 07:36:17
+p9 enters CS at 07:36:17
+p9 leaves CS at 07:36:19
+p9 sends token to p10 at 07:36:19
+Messages exchanged by p9 is 40.
+Average Reponse time of p9 is 9.08 secs.
+
+
+p10 is doing local computation at 07:32:19
+p10 recieves p9's request to enter CS at 07:32:20
+p10 forwarded p9's request to enter CS at 07:32:20
+p10 requests to enter CS at 07:32:21 for 1 time
+p10 recieves token from p11 at 07:32:26
+p10 recieves p11's request to enter CS at 07:32:26
+p10 sends token to p9 at 07:32:26
+p10 recieves token from p9 at 07:33:00
+p10 recieves p9's request to enter CS at 07:33:00
+p10 enters CS at 07:33:00
+p10 leaves CS at 07:33:01
+p10 sends token to p11 at 07:33:01
+p10 forwarded p9's request to enter CS at 07:33:01
+p10 is doing local computation at 07:33:01
+p10 requests to enter CS at 07:33:03 for 2 time
+p10 recieves token from p11 at 07:33:42
+p10 sends token to p9 at 07:33:42
+p10 recieves p11's request to enter CS at 07:33:42
+p10 recieves token from p9 at 07:34:11
+p10 recieves p9's request to enter CS at 07:34:11
+p10 enters CS at 07:34:11
+p10 leaves CS at 07:34:14
+p10 sends token to p11 at 07:34:14
+p10 forwarded p9's request to enter CS at 07:34:14
+p10 is doing local computation at 07:34:15
+p10 requests to enter CS at 07:34:16 for 3 time
+p10 recieves token from p11 at 07:34:51
+p10 recieves p11's request to enter CS at 07:34:51
+p10 sends token to p9 at 07:34:51
+p10 recieves token from p9 at 07:35:16
+p10 enters CS at 07:35:16
+p10 recieves p9's request to enter CS at 07:35:16
+p10 leaves CS at 07:35:20
+p10 sends token to p11 at 07:35:20
+p10 forwarded p9's request to enter CS at 07:35:20
+p10 is doing local computation at 07:35:20
+p10 requests to enter CS at 07:35:22 for 4 time
+p10 recieves token from p11 at 07:35:51
+p10 recieves p11's request to enter CS at 07:35:51
+p10 sends token to p9 at 07:35:51
+p10 recieves token from p9 at 07:36:19
+p10 enters CS at 07:36:19
+p10 leaves CS at 07:36:24
+p10 sends token to p11 at 07:36:24
+Messages exchanged by p10 is 40.
+Average Reponse time of p10 is 9.20 secs.
+
+
+p11 is doing local computation at 07:32:19
+p11 requests to enter CS at 07:32:20 for 1 time
+p11 recieves p10's request to enter CS at 07:32:20
+p11 recieves token from p12 at 07:32:23
+p11 recieves p12's request to enter CS at 07:32:23
+p11 enters CS at 07:32:23
+p11 leaves CS at 07:32:26
+p11 sends token to p10 at 07:32:26
+p11 forwarded p12's request to enter CS at 07:32:26
+p11 is doing local computation at 07:32:26
+p11 requests to enter CS at 07:32:28 for 2 time
+p11 recieves token from p10 at 07:33:01
+p11 recieves p10's request to enter CS at 07:33:01
+p11 sends token to p12 at 07:33:01
+p11 recieves token from p12 at 07:33:41
+p11 recieves p12's request to enter CS at 07:33:41
+p11 enters CS at 07:33:41
+p11 leaves CS at 07:33:42
+p11 is doing local computation at 07:33:42
+p11 sends token to p10 at 07:33:42
+p11 forwarded p12's request to enter CS at 07:33:42
+p11 requests to enter CS at 07:33:44 for 3 time
+p11 recieves token from p10 at 07:34:14
+p11 sends token to p12 at 07:34:15
+p11 recieves p10's request to enter CS at 07:34:15
+p11 recieves token from p12 at 07:34:48
+p11 recieves p12's request to enter CS at 07:34:48
+p11 enters CS at 07:34:48
+p11 leaves CS at 07:34:51
+p11 sends token to p10 at 07:34:51
+p11 is doing local computation at 07:34:51
+p11 forwarded p12's request to enter CS at 07:34:51
+p11 requests to enter CS at 07:34:54 for 4 time
+p11 recieves token from p10 at 07:35:20
+p11 sends token to p12 at 07:35:20
+p11 recieves p10's request to enter CS at 07:35:20
+p11 recieves token from p12 at 07:35:48
+p11 recieves p12's request to enter CS at 07:35:48
+p11 enters CS at 07:35:48
+p11 leaves CS at 07:35:51
+p11 sends token to p10 at 07:35:51
+p11 forwarded p12's request to enter CS at 07:35:51
+p11 recieves token from p10 at 07:36:24
+p11 sends token to p12 at 07:36:24
+Messages exchanged by p11 is 40.
+Average Reponse time of p11 is 8.08 secs.
+
+
+p12 is doing local computation at 07:32:19
+p12 requests to enter CS at 07:32:20 for 1 time
+p12 enters CS at 07:32:20
+p12 recieves p11's request to enter CS at 07:32:20
+p12 recieves p13's request to enter CS at 07:32:20
+p12 leaves CS at 07:32:23
+p12 is doing local computation at 07:32:23
+p12 sends token to p11 at 07:32:23
+p12 forwarded p13's request to enter CS at 07:32:23
+p12 requests to enter CS at 07:32:25 for 2 time
+p12 recieves token from p11 at 07:33:01
+p12 recieves p11's request to enter CS at 07:33:01
+p12 sends token to p13 at 07:33:01
+p12 recieves token from p13 at 07:33:39
+p12 recieves p13's request to enter CS at 07:33:39
+p12 enters CS at 07:33:39
+p12 leaves CS at 07:33:41
+p12 sends token to p11 at 07:33:41
+p12 forwarded p13's request to enter CS at 07:33:41
+p12 is doing local computation at 07:33:41
+p12 requests to enter CS at 07:33:44 for 3 time
+p12 recieves token from p11 at 07:34:15
+p12 sends token to p13 at 07:34:15
+p12 recieves p11's request to enter CS at 07:34:15
+p12 recieves token from p13 at 07:34:44
+p12 recieves p13's request to enter CS at 07:34:44
+p12 enters CS at 07:34:44
+p12 leaves CS at 07:34:48
+p12 sends token to p11 at 07:34:48
+p12 forwarded p13's request to enter CS at 07:34:48
+p12 is doing local computation at 07:34:48
+p12 requests to enter CS at 07:34:51 for 4 time
+p12 recieves token from p11 at 07:35:20
+p12 sends token to p13 at 07:35:20
+p12 recieves p11's request to enter CS at 07:35:20
+p12 recieves token from p13 at 07:35:44
+p12 recieves p13's request to enter CS at 07:35:44
+p12 enters CS at 07:35:44
+p12 leaves CS at 07:35:48
+p12 sends token to p11 at 07:35:48
+p12 forwarded p13's request to enter CS at 07:35:48
+p12 recieves token from p11 at 07:36:24
+p12 sends token to p13 at 07:36:24
+Messages exchanged by p12 is 39.
+Average Reponse time of p12 is 7.84 secs.
+
+
+p13 is doing local computation at 07:32:19
+p13 recieves p14's request to enter CS at 07:32:20
+p13 forwarded p14's request to enter CS at 07:32:20
+p13 requests to enter CS at 07:32:21 for 1 time
+p13 recieves token from p12 at 07:33:01
+p13 recieves p12's request to enter CS at 07:33:01
+p13 sends token to p14 at 07:33:01
+p13 recieves token from p14 at 07:33:38
+p13 enters CS at 07:33:38
+p13 recieves p14's request to enter CS at 07:33:38
+p13 leaves CS at 07:33:39
+p13 is doing local computation at 07:33:39
+p13 sends token to p12 at 07:33:39
+p13 forwarded p14's request to enter CS at 07:33:39
+p13 requests to enter CS at 07:33:40 for 2 time
+p13 recieves token from p12 at 07:34:15
+p13 recieves p12's request to enter CS at 07:34:15
+p13 sends token to p14 at 07:34:15
+p13 recieves token from p14 at 07:34:43
+p13 recieves p14's request to enter CS at 07:34:43
+p13 enters CS at 07:34:43
+p13 leaves CS at 07:34:44
+p13 sends token to p12 at 07:34:44
+p13 forwarded p14's request to enter CS at 07:34:44
+p13 is doing local computation at 07:34:44
+p13 requests to enter CS at 07:34:47 for 3 time
+p13 recieves token from p12 at 07:35:20
+p13 sends token to p14 at 07:35:20
+p13 recieves p12's request to enter CS at 07:35:20
+p13 recieves token from p14 at 07:35:42
+p13 recieves p14's request to enter CS at 07:35:42
+p13 enters CS at 07:35:42
+p13 leaves CS at 07:35:44
+p13 is doing local computation at 07:35:44
+p13 sends token to p12 at 07:35:44
+p13 forwarded p14's request to enter CS at 07:35:44
+p13 requests to enter CS at 07:35:45 for 4 time
+p13 recieves token from p12 at 07:36:24
+p13 sends token to p14 at 07:36:24
+p13 recieves token from p14 at 07:37:06
+p13 enters CS at 07:37:06
+p13 leaves CS at 07:37:09
+Messages exchanged by p13 is 39.
+Average Reponse time of p13 is 11.28 secs.
+
+
+p14 is doing local computation at 07:32:19
+p14 requests to enter CS at 07:32:20 for 1 time
+p14 recieves p15's request to enter CS at 07:32:20
+p14 recieves token from p13 at 07:33:01
+p14 recieves p13's request to enter CS at 07:33:01
+p14 enters CS at 07:33:01
+p14 leaves CS at 07:33:05
+p14 sends token to p15 at 07:33:05
+p14 forwarded p13's request to enter CS at 07:33:05
+p14 is doing local computation at 07:33:05
+p14 requests to enter CS at 07:33:07 for 2 time
+p14 recieves token from p15 at 07:33:38
+p14 recieves p15's request to enter CS at 07:33:38
+p14 sends token to p13 at 07:33:38
+p14 recieves token from p13 at 07:34:15
+p14 recieves p13's request to enter CS at 07:34:15
+p14 enters CS at 07:34:15
+p14 leaves CS at 07:34:20
+p14 sends token to p15 at 07:34:20
+p14 forwarded p13's request to enter CS at 07:34:20
+p14 is doing local computation at 07:34:20
+p14 requests to enter CS at 07:34:22 for 3 time
+p14 recieves token from p15 at 07:34:43
+p14 sends token to p13 at 07:34:43
+p14 recieves p15's request to enter CS at 07:34:43
+p14 recieves token from p13 at 07:35:20
+p14 enters CS at 07:35:20
+p14 recieves p13's request to enter CS at 07:35:20
+p14 leaves CS at 07:35:22
+p14 sends token to p15 at 07:35:22
+p14 is doing local computation at 07:35:22
+p14 forwarded p13's request to enter CS at 07:35:22
+p14 requests to enter CS at 07:35:25 for 4 time
+p14 recieves token from p15 at 07:35:42
+p14 recieves p15's request to enter CS at 07:35:42
+p14 sends token to p13 at 07:35:42
+p14 recieves token from p13 at 07:36:24
+p14 enters CS at 07:36:24
+p14 recieves p13's request to enter CS at 07:36:24
+p14 leaves CS at 07:36:27
+p14 sends token to p15 at 07:36:27
+p14 forwarded p13's request to enter CS at 07:36:27
+p14 recieves token from p15 at 07:37:06
+p14 sends token to p13 at 07:37:06
+Messages exchanged by p14 is 40.
+Average Reponse time of p14 is 9.36 secs.
+
+
+p15 is doing local computation at 07:32:19
+p15 recieves p16's request to enter CS at 07:32:20
+p15 forwarded p16's request to enter CS at 07:32:20
+p15 requests to enter CS at 07:32:22 for 1 time
+p15 recieves token from p14 at 07:33:05
+p15 recieves p14's request to enter CS at 07:33:05
+p15 sends token to p16 at 07:33:05
+p15 recieves token from p16 at 07:33:34
+p15 recieves p16's request to enter CS at 07:33:34
+p15 enters CS at 07:33:34
+p15 leaves CS at 07:33:38
+p15 is doing local computation at 07:33:38
+p15 sends token to p14 at 07:33:38
+p15 forwarded p16's request to enter CS at 07:33:38
+p15 requests to enter CS at 07:33:40 for 2 time
+p15 recieves token from p14 at 07:34:20
+p15 recieves p14's request to enter CS at 07:34:20
+p15 sends token to p16 at 07:34:20
+p15 recieves token from p16 at 07:34:41
+p15 recieves p16's request to enter CS at 07:34:41
+p15 enters CS at 07:34:41
+p15 leaves CS at 07:34:43
+p15 sends token to p14 at 07:34:43
+p15 is doing local computation at 07:34:43
+p15 forwarded p16's request to enter CS at 07:34:43
+p15 requests to enter CS at 07:34:45 for 3 time
+p15 recieves token from p14 at 07:35:22
+p15 recieves p14's request to enter CS at 07:35:22
+p15 sends token to p16 at 07:35:22
+p15 recieves token from p16 at 07:35:41
+p15 recieves p16's request to enter CS at 07:35:41
+p15 enters CS at 07:35:41
+p15 leaves CS at 07:35:42
+p15 sends token to p14 at 07:35:42
+p15 is doing local computation at 07:35:42
+p15 forwarded p16's request to enter CS at 07:35:42
+p15 requests to enter CS at 07:35:45 for 4 time
+p15 recieves token from p14 at 07:36:27
+p15 sends token to p16 at 07:36:27
+p15 recieves p14's request to enter CS at 07:36:27
+p15 recieves token from p16 at 07:37:01
+p15 enters CS at 07:37:01
+p15 leaves CS at 07:37:06
+p15 sends token to p14 at 07:37:06
+Messages exchanged by p15 is 40.
+Average Reponse time of p15 is 10.96 secs.
+
+
+p16 is doing local computation at 07:32:19
+p16 recieves p17's request to enter CS at 07:32:20
+p16 forwarded p17's request to enter CS at 07:32:20
+p16 requests to enter CS at 07:32:22 for 1 time
+p16 recieves token from p15 at 07:33:05
+p16 recieves p15's request to enter CS at 07:33:05
+p16 sends token to p17 at 07:33:05
+p16 recieves token from p17 at 07:33:29
+p16 enters CS at 07:33:29
+p16 recieves p17's request to enter CS at 07:33:29
+p16 leaves CS at 07:33:34
+p16 is doing local computation at 07:33:34
+p16 sends token to p15 at 07:33:34
+p16 forwarded p17's request to enter CS at 07:33:34
+p16 requests to enter CS at 07:33:35 for 2 time
+p16 recieves token from p15 at 07:34:20
+p16 recieves p15's request to enter CS at 07:34:20
+p16 sends token to p17 at 07:34:20
+p16 recieves token from p17 at 07:34:40
+p16 recieves p17's request to enter CS at 07:34:40
+p16 enters CS at 07:34:40
+p16 leaves CS at 07:34:41
+p16 sends token to p15 at 07:34:41
+p16 is doing local computation at 07:34:41
+p16 forwarded p17's request to enter CS at 07:34:41
+p16 requests to enter CS at 07:34:44 for 3 time
+p16 recieves token from p15 at 07:35:22
+p16 recieves p15's request to enter CS at 07:35:22
+p16 sends token to p17 at 07:35:22
+p16 recieves token from p17 at 07:35:40
+p16 enters CS at 07:35:40
+p16 recieves p17's request to enter CS at 07:35:40
+p16 leaves CS at 07:35:41
+p16 is doing local computation at 07:35:41
+p16 sends token to p15 at 07:35:41
+p16 forwarded p17's request to enter CS at 07:35:41
+p16 requests to enter CS at 07:35:44 for 4 time
+p16 recieves token from p15 at 07:36:27
+p16 sends token to p17 at 07:36:27
+p16 recieves p15's request to enter CS at 07:36:27
+p16 recieves token from p17 at 07:36:57
+p16 enters CS at 07:36:57
+p16 leaves CS at 07:37:01
+p16 sends token to p15 at 07:37:01
+Messages exchanged by p16 is 40.
+Average Reponse time of p16 is 10.80 secs.
+
+
+p17 is doing local computation at 07:32:19
+p17 recieves p18's request to enter CS at 07:32:20
+p17 forwarded p18's request to enter CS at 07:32:20
+p17 requests to enter CS at 07:32:22 for 1 time
+p17 recieves token from p16 at 07:33:05
+p17 sends token to p18 at 07:33:05
+p17 recieves p16's request to enter CS at 07:33:05
+p17 recieves token from p18 at 07:33:26
+p17 recieves p18's request to enter CS at 07:33:26
+p17 enters CS at 07:33:26
+p17 leaves CS at 07:33:29
+p17 is doing local computation at 07:33:29
+p17 sends token to p16 at 07:33:29
+p17 forwarded p18's request to enter CS at 07:33:29
+p17 requests to enter CS at 07:33:31 for 2 time
+p17 recieves token from p16 at 07:34:20
+p17 recieves p16's request to enter CS at 07:34:20
+p17 sends token to p18 at 07:34:20
+p17 recieves token from p18 at 07:34:38
+p17 recieves p18's request to enter CS at 07:34:38
+p17 enters CS at 07:34:38
+p17 leaves CS at 07:34:40
+p17 sends token to p16 at 07:34:40
+p17 forwarded p18's request to enter CS at 07:34:40
+p17 is doing local computation at 07:34:40
+p17 requests to enter CS at 07:34:41 for 3 time
+p17 recieves token from p16 at 07:35:22
+p17 recieves p16's request to enter CS at 07:35:22
+p17 sends token to p18 at 07:35:22
+p17 recieves token from p18 at 07:35:38
+p17 recieves p18's request to enter CS at 07:35:38
+p17 enters CS at 07:35:38
+p17 leaves CS at 07:35:40
+p17 sends token to p16 at 07:35:40
+p17 forwarded p18's request to enter CS at 07:35:40
+p17 is doing local computation at 07:35:40
+p17 requests to enter CS at 07:35:42 for 4 time
+p17 recieves token from p16 at 07:36:27
+p17 recieves p16's request to enter CS at 07:36:27
+p17 sends token to p18 at 07:36:27
+p17 recieves token from p18 at 07:36:54
+p17 enters CS at 07:36:54
+p17 leaves CS at 07:36:57
+p17 sends token to p16 at 07:36:57
+Messages exchanged by p17 is 40.
+Average Reponse time of p17 is 10.68 secs.
+
+
+p18 is doing local computation at 07:32:19
+p18 recieves p19's request to enter CS at 07:32:20
+p18 forwarded p19's request to enter CS at 07:32:20
+p18 requests to enter CS at 07:32:22 for 1 time
+p18 recieves token from p17 at 07:33:05
+p18 recieves p17's request to enter CS at 07:33:05
+p18 sends token to p19 at 07:33:05
+p18 recieves token from p19 at 07:33:23
+p18 enters CS at 07:33:23
+p18 recieves p19's request to enter CS at 07:33:23
+p18 leaves CS at 07:33:26
+p18 is doing local computation at 07:33:26
+p18 sends token to p17 at 07:33:26
+p18 forwarded p19's request to enter CS at 07:33:26
+p18 requests to enter CS at 07:33:28 for 2 time
+p18 recieves token from p17 at 07:34:20
+p18 recieves p17's request to enter CS at 07:34:20
+p18 sends token to p19 at 07:34:20
+p18 recieves token from p19 at 07:34:37
+p18 recieves p19's request to enter CS at 07:34:37
+p18 enters CS at 07:34:37
+p18 leaves CS at 07:34:38
+p18 sends token to p17 at 07:34:38
+p18 forwarded p19's request to enter CS at 07:34:38
+p18 is doing local computation at 07:34:38
+p18 requests to enter CS at 07:34:41 for 3 time
+p18 recieves token from p17 at 07:35:22
+p18 recieves p17's request to enter CS at 07:35:22
+p18 sends token to p19 at 07:35:23
+p18 recieves token from p19 at 07:35:36
+p18 recieves p19's request to enter CS at 07:35:36
+p18 enters CS at 07:35:36
+p18 leaves CS at 07:35:38
+p18 sends token to p17 at 07:35:38
+p18 is doing local computation at 07:35:38
+p18 forwarded p19's request to enter CS at 07:35:38
+p18 requests to enter CS at 07:35:40 for 4 time
+p18 recieves token from p17 at 07:36:27
+p18 sends token to p19 at 07:36:27
+p18 recieves p17's request to enter CS at 07:36:27
+p18 recieves token from p19 at 07:36:49
+p18 enters CS at 07:36:49
+p18 leaves CS at 07:36:54
+p18 sends token to p17 at 07:36:54
+Messages exchanged by p18 is 40.
+Average Reponse time of p18 is 10.52 secs.
+
+
+p19 is doing local computation at 07:32:19
+p19 recieves p20's request to enter CS at 07:32:20
+p19 requests to enter CS at 07:32:20 for 1 time
+p19 forwarded p20's request to enter CS at 07:32:20
+p19 recieves token from p18 at 07:33:05
+p19 recieves p18's request to enter CS at 07:33:05
+p19 sends token to p20 at 07:33:05
+p19 recieves token from p20 at 07:33:20
+p19 recieves p20's request to enter CS at 07:33:20
+p19 enters CS at 07:33:20
+p19 leaves CS at 07:33:23
+p19 sends token to p18 at 07:33:23
+p19 is doing local computation at 07:33:23
+p19 forwarded p20's request to enter CS at 07:33:23
+p19 requests to enter CS at 07:33:24 for 2 time
+p19 recieves token from p18 at 07:34:20
+p19 recieves p18's request to enter CS at 07:34:20
+p19 sends token to p20 at 07:34:20
+p19 recieves token from p20 at 07:34:32
+p19 recieves p20's request to enter CS at 07:34:32
+p19 enters CS at 07:34:32
+p19 leaves CS at 07:34:37
+p19 sends token to p18 at 07:34:37
+p19 forwarded p20's request to enter CS at 07:34:37
+p19 is doing local computation at 07:34:37
+p19 requests to enter CS at 07:34:39 for 3 time
+p19 recieves token from p18 at 07:35:23
+p19 recieves p18's request to enter CS at 07:35:23
+p19 sends token to p20 at 07:35:23
+p19 recieves token from p20 at 07:35:33
+p19 recieves p20's request to enter CS at 07:35:33
+p19 enters CS at 07:35:33
+p19 leaves CS at 07:35:36
+p19 is doing local computation at 07:35:36
+p19 sends token to p18 at 07:35:36
+p19 forwarded p20's request to enter CS at 07:35:36
+p19 requests to enter CS at 07:35:39 for 4 time
+p19 recieves token from p18 at 07:36:27
+p19 recieves p18's request to enter CS at 07:36:27
+p19 sends token to p20 at 07:36:27
+p19 recieves token from p20 at 07:36:46
+p19 enters CS at 07:36:46
+p19 leaves CS at 07:36:49
+p19 sends token to p18 at 07:36:49
+Messages exchanged by p19 is 40.
+Average Reponse time of p19 is 10.20 secs.
+
+
+p20 is doing local computation at 07:32:19
+p20 requests to enter CS at 07:32:20 for 1 time
+p20 recieves p21's request to enter CS at 07:32:20
+p20 recieves token from p19 at 07:33:05
+p20 recieves p19's request to enter CS at 07:33:05
+p20 enters CS at 07:33:05
+p20 leaves CS at 07:33:08
+p20 is doing local computation at 07:33:08
+p20 sends token to p21 at 07:33:08
+p20 forwarded p19's request to enter CS at 07:33:08
+p20 requests to enter CS at 07:33:09 for 2 time
+p20 recieves token from p21 at 07:33:20
+p20 recieves p21's request to enter CS at 07:33:20
+p20 sends token to p19 at 07:33:20
+p20 recieves token from p19 at 07:34:20
+p20 recieves p19's request to enter CS at 07:34:20
+p20 enters CS at 07:34:20
+p20 leaves CS at 07:34:23
+p20 sends token to p21 at 07:34:23
+p20 is doing local computation at 07:34:23
+p20 forwarded p19's request to enter CS at 07:34:23
+p20 requests to enter CS at 07:34:25 for 3 time
+p20 recieves token from p21 at 07:34:32
+p20 sends token to p19 at 07:34:32
+p20 recieves p21's request to enter CS at 07:34:32
+p20 recieves token from p19 at 07:35:23
+p20 recieves p19's request to enter CS at 07:35:23
+p20 enters CS at 07:35:23
+p20 leaves CS at 07:35:24
+p20 sends token to p21 at 07:35:24
+p20 forwarded p19's request to enter CS at 07:35:24
+p20 is doing local computation at 07:35:24
+p20 requests to enter CS at 07:35:27 for 4 time
+p20 recieves token from p21 at 07:35:33
+p20 recieves p21's request to enter CS at 07:35:33
+p20 sends token to p19 at 07:35:33
+p20 recieves token from p19 at 07:36:27
+p20 recieves p19's request to enter CS at 07:36:27
+p20 enters CS at 07:36:27
+p20 leaves CS at 07:36:31
+p20 sends token to p21 at 07:36:31
+p20 forwarded p19's request to enter CS at 07:36:31
+p20 recieves token from p21 at 07:36:46
+p20 sends token to p19 at 07:36:46
+Messages exchanged by p20 is 40.
+Average Reponse time of p20 is 9.64 secs.
+
+
+p21 is doing local computation at 07:32:19
+p21 requests to enter CS at 07:32:20 for 1 time
+p21 recieves p22's request to enter CS at 07:32:22
+p21 recieves token from p20 at 07:33:08
+p21 enters CS at 07:33:08
+p21 recieves p20's request to enter CS at 07:33:08
+p21 leaves CS at 07:33:11
+p21 sends token to p22 at 07:33:11
+p21 is doing local computation at 07:33:11
+p21 forwarded p20's request to enter CS at 07:33:11
+p21 requests to enter CS at 07:33:12 for 2 time
+p21 recieves token from p22 at 07:33:20
+p21 recieves p22's request to enter CS at 07:33:20
+p21 sends token to p20 at 07:33:20
+p21 recieves token from p20 at 07:34:23
+p21 recieves p20's request to enter CS at 07:34:23
+p21 enters CS at 07:34:23
+p21 leaves CS at 07:34:27
+p21 sends token to p22 at 07:34:27
+p21 forwarded p20's request to enter CS at 07:34:27
+p21 is doing local computation at 07:34:27
+p21 requests to enter CS at 07:34:28 for 3 time
+p21 recieves token from p22 at 07:34:32
+p21 recieves p22's request to enter CS at 07:34:32
+p21 sends token to p20 at 07:34:32
+p21 recieves token from p20 at 07:35:24
+p21 recieves p20's request to enter CS at 07:35:24
+p21 enters CS at 07:35:24
+p21 leaves CS at 07:35:27
+p21 sends token to p22 at 07:35:27
+p21 is doing local computation at 07:35:27
+p21 forwarded p20's request to enter CS at 07:35:27
+p21 requests to enter CS at 07:35:30 for 4 time
+p21 recieves token from p22 at 07:35:33
+p21 recieves p22's request to enter CS at 07:35:33
+p21 sends token to p20 at 07:35:33
+p21 recieves token from p20 at 07:36:31
+p21 recieves p20's request to enter CS at 07:36:31
+p21 enters CS at 07:36:31
+p21 leaves CS at 07:36:35
+p21 sends token to p22 at 07:36:35
+p21 forwarded p20's request to enter CS at 07:36:35
+p21 recieves token from p22 at 07:36:46
+p21 sends token to p20 at 07:36:46
+Messages exchanged by p21 is 40.
+Average Reponse time of p21 is 9.68 secs.
+
+
+p22 is doing local computation at 07:32:19
+p22 requests to enter CS at 07:32:22 for 1 time
+p22 recieves p23's request to enter CS at 07:32:22
+p22 recieves token from p21 at 07:33:11
+p22 recieves p21's request to enter CS at 07:33:11
+p22 enters CS at 07:33:11
+p22 leaves CS at 07:33:13
+p22 sends token to p23 at 07:33:13
+p22 forwarded p21's request to enter CS at 07:33:13
+p22 is doing local computation at 07:33:13
+p22 requests to enter CS at 07:33:14 for 2 time
+p22 recieves token from p23 at 07:33:20
+p22 recieves p23's request to enter CS at 07:33:20
+p22 sends token to p21 at 07:33:20
+p22 recieves token from p21 at 07:34:27
+p22 recieves p21's request to enter CS at 07:34:27
+p22 enters CS at 07:34:27
+p22 leaves CS at 07:34:30
+p22 sends token to p23 at 07:34:30
+p22 is doing local computation at 07:34:30
+p22 forwarded p21's request to enter CS at 07:34:30
+p22 requests to enter CS at 07:34:32 for 3 time
+p22 recieves token from p23 at 07:34:32
+p22 recieves p23's request to enter CS at 07:34:32
+p22 sends token to p21 at 07:34:32
+p22 recieves token from p21 at 07:35:27
+p22 recieves p21's request to enter CS at 07:35:27
+p22 enters CS at 07:35:27
+p22 leaves CS at 07:35:28
+p22 is doing local computation at 07:35:28
+p22 sends token to p23 at 07:35:28
+p22 forwarded p21's request to enter CS at 07:35:28
+p22 requests to enter CS at 07:35:31 for 4 time
+p22 recieves token from p23 at 07:35:33
+p22 sends token to p21 at 07:35:33
+p22 recieves p23's request to enter CS at 07:35:34
+p22 recieves token from p21 at 07:36:35
+p22 recieves p21's request to enter CS at 07:36:35
+p22 enters CS at 07:36:35
+p22 leaves CS at 07:36:36
+p22 sends token to p23 at 07:36:36
+p22 forwarded p21's request to enter CS at 07:36:36
+p22 recieves token from p23 at 07:36:46
+p22 sends token to p21 at 07:36:46
+Messages exchanged by p22 is 40.
+Average Reponse time of p22 is 10.00 secs.
+
+
+p23 is doing local computation at 07:32:19
+p23 requests to enter CS at 07:32:22 for 1 time
+p23 recieves p24's request to enter CS at 07:32:22
+p23 recieves token from p22 at 07:33:13
+p23 enters CS at 07:33:13
+p23 recieves p22's request to enter CS at 07:33:13
+p23 leaves CS at 07:33:18
+p23 sends token to p24 at 07:33:18
+p23 forwarded p22's request to enter CS at 07:33:18
+p23 is doing local computation at 07:33:18
+p23 requests to enter CS at 07:33:20 for 2 time
+p23 recieves token from p24 at 07:33:20
+p23 sends token to p22 at 07:33:20
+p23 recieves p24's request to enter CS at 07:33:23
+p23 recieves token from p22 at 07:34:30
+p23 recieves p22's request to enter CS at 07:34:30
+p23 enters CS at 07:34:30
+p23 leaves CS at 07:34:31
+p23 sends token to p24 at 07:34:31
+p23 is doing local computation at 07:34:31
+p23 forwarded p22's request to enter CS at 07:34:31
+p23 requests to enter CS at 07:34:32 for 3 time
+p23 recieves token from p24 at 07:34:32
+p23 sends token to p22 at 07:34:32
+p23 recieves p24's request to enter CS at 07:34:33
+p23 recieves token from p22 at 07:35:28
+p23 recieves p22's request to enter CS at 07:35:28
+p23 enters CS at 07:35:28
+p23 leaves CS at 07:35:31
+p23 sends token to p24 at 07:35:31
+p23 forwarded p22's request to enter CS at 07:35:31
+p23 is doing local computation at 07:35:31
+p23 recieves token from p24 at 07:35:33
+p23 sends token to p22 at 07:35:33
+p23 requests to enter CS at 07:35:34 for 4 time
+p23 recieves p24's request to enter CS at 07:35:36
+p23 recieves token from p22 at 07:36:36
+p23 enters CS at 07:36:36
+p23 recieves p22's request to enter CS at 07:36:36
+p23 leaves CS at 07:36:41
+p23 sends token to p24 at 07:36:41
+p23 forwarded p22's request to enter CS at 07:36:41
+p23 recieves token from p24 at 07:36:46
+p23 sends token to p22 at 07:36:46
+Messages exchanged by p23 is 40.
+Average Reponse time of p23 is 9.84 secs.
+
+
+p24 is doing local computation at 07:32:19
+p24 requests to enter CS at 07:32:22 for 1 time
+p24 recieves token from p23 at 07:33:18
+p24 recieves p23's request to enter CS at 07:33:18
+p24 enters CS at 07:33:18
+p24 leaves CS at 07:33:20
+p24 is doing local computation at 07:33:20
+p24 sends token to p23 at 07:33:20
+p24 requests to enter CS at 07:33:23 for 2 time
+p24 recieves token from p23 at 07:34:31
+p24 enters CS at 07:34:31
+p24 recieves p23's request to enter CS at 07:34:31
+p24 leaves CS at 07:34:32
+p24 sends token to p23 at 07:34:32
+p24 is doing local computation at 07:34:32
+p24 requests to enter CS at 07:34:33 for 3 time
+p24 recieves token from p23 at 07:35:31
+p24 recieves p23's request to enter CS at 07:35:31
+p24 enters CS at 07:35:31
+p24 leaves CS at 07:35:33
+p24 sends token to p23 at 07:35:33
+p24 is doing local computation at 07:35:33
+p24 requests to enter CS at 07:35:36 for 4 time
+p24 recieves token from p23 at 07:36:41
+p24 recieves p23's request to enter CS at 07:36:41
+p24 enters CS at 07:36:41
+p24 leaves CS at 07:36:46
+p24 sends token to p23 at 07:36:46
+Messages exchanged by p24 is 32.
+Average Reponse time of p24 is 10.28 secs.
+
+Average Message Complexity in System is 39.28
+Average Response Time in System is 9.3648secs.
